@@ -1,0 +1,44 @@
+.vedioFooter{
+    position: relative;
+    bottom: 150px;
+    color: white;
+    display: flex;
+    margin-left: 10px;
+}
+.vedioFooter_text{
+    flex: 1;
+    padding-bottom: 20px;
+}
+.vedioFooter_text > h3{
+    padding-bottom: 0px;
+}
+.vedioFooter_record{
+    animation: logo_spin infinite 5s linear; 
+    height: 50px;
+    filter: invert(1);
+    position: absolute;
+    bottom : 30px;
+    right: 0px;
+}
+#music_icon{
+    margin-top: 17px;
+    height: 30px;
+    position: absolute;
+}
+.ticker > .ticker{
+    width: 80%;
+    margin-left: 27px;
+}
+.ticker > h3{
+    font-size: 10px;
+    margin-top: 0;
+}
+
+@keyframes logo_spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
